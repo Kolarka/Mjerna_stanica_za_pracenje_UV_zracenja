@@ -1,0 +1,2 @@
+rootProject.name = "Mjerna_stanica_za_pracenje_UV_zracenja"
+include ':app'
