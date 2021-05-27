@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Mjerna_stanica_za_pracenje_UV_zracenja</string>
     <string name="color">Odaberi svoju boju kože</string>
+    <string name="prona_i_svoj_tip_ko_e">Pronađi svoj tip kože</string>
+    <string name="sun">sun</string>
 </resources>
