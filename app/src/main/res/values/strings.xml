@@ -3,4 +3,7 @@
     <string name="color">Odaberi svoju boju kože</string>
     <string name="prona_i_svoj_tip_ko_e">Pronađi svoj tip kože</string>
     <string name="sun">sun</string>
+    <string name="odaberi_grad">Odaberi grad</string>
+    <string name="a">--------</string>
+    <string name="_0_c">0*C</string>
 </resources>

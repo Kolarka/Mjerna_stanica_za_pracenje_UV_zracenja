@@ -3,6 +3,7 @@ package com.my.mjerna_stanica_za_pracenje_uv_zracenja;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -25,6 +26,7 @@ public class MainActivity extends FragmentActivity {
         type1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                openUV();
 
             }
         });
@@ -32,6 +34,7 @@ public class MainActivity extends FragmentActivity {
         type2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
 
             }
         });
@@ -56,6 +59,11 @@ public class MainActivity extends FragmentActivity {
 
             }
         });
+    }
+
+    private void openUV() {
+        Intent intenUV = new Intent(this, UV.class);
+        startActivity(intenUV);
     }
 
 

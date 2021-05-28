@@ -5,6 +5,89 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_col"
     tools:context=".UV">
-    
+
+    <RelativeLayout
+        android:id="@+id/findcity"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FF7C02"
+            android:text="@string/odaberi_grad"
+            android:textSize="20sp">
+        </TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rel_temp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/findcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/weathericon"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_marginStart="200dp"
+            android:id="@+id/temperature"
+            android:textSize="50sp"
+            android:textColor="#FF7C02"
+            android:text="@string/_0_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+
+            android:layout_below="@id/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/weathercondition"
+            android:textSize="20sp"
+            android:textColor="#FF7C02"
+            android:text="@string/a"
+            android:layout_marginStart="220dp">
+
+        </TextView>
+        <TextView
+            android:text="Fetching___"
+            android:textColor="#FF7C02"
+            android:textSize="30sp"
+            android:id="@+id/city_name"
+            android:layout_below="@id/weathercondition"
+            android:layout_marginStart="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/rel_temp"
+        android:id="@+id/rel_sun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/sun2"
+            android:layout_marginTop="100dp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+
 
 </RelativeLayout>
