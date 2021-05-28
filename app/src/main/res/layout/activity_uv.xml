@@ -33,7 +33,8 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="20dp"
             android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_height="100dp"
+            android:contentDescription="@string/sun_image">
 
         </ImageView>
 
@@ -60,7 +61,7 @@
 
         </TextView>
         <TextView
-            android:text="Fetching___"
+            android:text="@string/fetching"
             android:textColor="#FF7C02"
             android:textSize="30sp"
             android:id="@+id/city_name"
@@ -82,9 +83,66 @@
             android:layout_marginTop="100dp"
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/esun">
 
         </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="130dp"
+            android:text="@string/uvv"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/uv_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="146dp"
+            android:text="@string/p"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/zastitni_faktor_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/uv_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginBottom="122dp"
+            android:text="@string/za_titni_faktor"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/zastit_fakt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="240dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/r"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </TextView>
 
 
     </RelativeLayout>

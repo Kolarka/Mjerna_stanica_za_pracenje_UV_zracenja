@@ -6,4 +6,11 @@
     <string name="odaberi_grad">Odaberi grad</string>
     <string name="a">--------</string>
     <string name="_0_c">0*C</string>
+    <string name="uvv">UV</string>
+    <string name="p">__</string>
+    <string name="fetching">Fetching___</string>
+    <string name="sun_image">sun image</string>
+    <string name="esun">sunn</string>
+    <string name="r">__</string>
+    <string name="za_titni_faktor">Zaštitni faktor</string>
 </resources>
